@@ -1,0 +1,241 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  text-align: center;
+  padding: 20px;
+  background-color: #4a90e2;
+  color: white;
+}
+
+.game-selection{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.game-card {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  border-radius: 10px;
+}
+
+.game-card h2 {
+  margin: 0 0 10px;
+  color: #333;
+}
+
+button {
+  background-color: #4a90e2;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #357ab7;
+}
+
+.game-container {
+  padding: 20px;
+  text-align: center;
+}
+
+
+/* Games Styling */
+
+/* Speed test.html */
+#text-to-type {
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #eef2f7;
+  border-radius: 8px;
+  text-align: center;
+}
+
+#user-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  border: 2px solid #dde1e7;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.2s ease-in-out;
+}
+
+#user-input:focus {
+  border-color: #007bff;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.stats div {
+  font-size: 18px;
+  color: #555;
+}
+
+/* Word Fall Game Styles */
+#falling-words-container {
+  position: relative;
+  height: 300px;
+  background-color: #eef2f7;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 20px;
+  border: 2px solid #dde1e7;
+}
+
+.falling-word {
+  position: absolute;
+  font-size: 24px;
+  color: #333;
+  font-weight: bold;
+  transition: top 0.5s linear;
+  white-space: nowrap;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.falling-word.circle {
+  background-color: #f7a9a8;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.falling-word.square {
+  background-color: #aed1f7;
+  border-radius: 5px;
+}
+
+#word-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  border: 2px solid #dde1e7;
+  border-radius: 8px;
+  outline: none;
+  margin-top: 10px;
+}
+
+#word-input:focus {
+  border-color: #007bff;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Type the Pattern Styles */
+#pattern-to-type {
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #eef2f7;
+  border-radius: 8px;
+  text-align: center;
+}
+#pattern-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  border: 2px solid #dde1e7;
+  border-radius: 8px;
+  outline: none;
+}
+#pattern-input:focus {
+  border-color: #007bff;
+}
+.pattern-stats {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.pattern-stats div {
+  font-size: 18px;
+  color: #555;
+}
+
+
+
+/* Typing Race Styles */
+#race-text {
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #eef2f7;
+  border-radius: 8px;
+  text-align: center;
+}
+
+#race-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  border: 2px solid #dde1e7;
+  border-radius: 8px;
+  outline: none;
+}
+
+#race-input:focus {
+  border-color: #007bff;
+}
+
+.race-stats {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.race-stats div {
+  font-size: 18px;
+  color: #555;
+}
+
+.progress-container {
+  background-color: #eef2f7;
+  border-radius: 8px;
+  height: 8px;
+  overflow: hidden;
+  margin-top: 10px;
+  border: 2px solid #dde1e7;
+}
+
+#progress {
+  height: 100%;
+  width: 0;
+  background-color: #4caf50;
+  transition: width 0.2s ease-in-out;
+}
+
+/* Score Display */
+#score {
+  font-size: 20px;
+  color: #007bff;
+  margin-top: 20px;
+  text-align: center;
+}
+
+

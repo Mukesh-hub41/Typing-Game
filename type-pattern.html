@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Type the Pattern</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Type the Pattern</h1>
+        <button onclick="window.location.href='index.html'">Back</button>
+    </header>
+
+    <main class="game-container">
+        <p id="pattern-to-type"></p>
+        <input type="text" id="pattern-input" placeholder="Type the pattern...">
+        <div class="pattern-stats">
+            <p>Time: <span id="pattern-time">0</span> seconds</p>
+            <p>Accuracy: <span id="pattern-accuracy">0</span>%</p>
+            <p>Score: <span id="pattern-score">0</span></p>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
